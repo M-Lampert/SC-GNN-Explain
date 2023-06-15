@@ -1,0 +1,31 @@
+# Python 3.10.8
+
+# Standard libraries
+## Data handling
+pandas==2.0.0
+pyarrow==11.0.0 # To read and write parquet files
+numpy==1.23.5
+scipy==1.10.1
+scikit-learn==1.2.2
+
+## Visualization
+tqdm==4.65.0
+# All below are optional and only necessary for the notebooks (`tutorials/` and `tex/visualizations`)
+jupyter==1.0.0
+matplotlib==3.7.1
+seaborn==0.12.2
+
+# Deep learning libraries
+## PyTorch
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==1.13.0
+## Explainability
+captum==0.6.0
+
+## PyG
+-f https://data.pyg.org/whl/torch-1.13.0+cpu.html
+torch-scatter==2.1.1+pt113cpu
+torch-sparse==0.6.17+pt113cpu
+torch-cluster==1.6.1+pt113cpu
+torch-spline-conv==1.2.2+pt113cpu
+torch-geometric==2.3.0
