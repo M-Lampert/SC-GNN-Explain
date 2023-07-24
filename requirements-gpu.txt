@@ -25,6 +25,7 @@ captum==0.6.0
 
 ## PyG
 -f https://data.pyg.org/whl/torch-1.13.0+cu117.html
+pyg-lib==0.2.0+pt113cu117
 torch-scatter==2.1.1+pt113cu117
 torch-sparse==0.6.17+pt113cu117
 torch-cluster==1.6.1+pt113cu117
